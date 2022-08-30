@@ -55,6 +55,11 @@ li {
     font-weight: 18px;
 }
 
+.right {
+    display: flex;
+    width: 50px;
+}
+
 .button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -80,10 +85,60 @@ li {
 .content{
     display: flex;
     gap: 8px;
+    color: #1f2937;
+    font-size: 18px;
 }
 
-.box {
+.turtle {
     display: flex;
     flex-direction: column;
+    border: solid #3882f6;
+    border-radius: 16px;
+    border-width: 3px;
+    max-width: 150px;
+}
 
+img {
+    border-radius: 16px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px;
+}
+
+.text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.signature {
+    font-weight: bold;
+    align-self:flex-end;
+}
+
+.blue {
+    background-color: #3882f6;
+    display: flex;
+    color: #e5e7eb
+}
+
+.button-2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    width: 80px;
+    padding: 8px 36px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.footer {
+    color: #e5e7eb;
+    align-self: center;
 }
