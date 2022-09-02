@@ -69,6 +69,10 @@ ul{
     display: flex;
 }
 
+img:hover{
+    transform:scaleX(-1);
+}
+
 .button {
     background-color: #3882f6;
     color: #f9faf8;
